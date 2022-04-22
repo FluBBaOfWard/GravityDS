@@ -1,0 +1,181 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		746D78E114ED9A8400CC738F /* Makefile */ = {isa = PBXFileReference; explicitFileType = sourcecode.make; fileEncoding = 4; path = Makefile; sourceTree = "<group>"; };
+		9C50820C25D45A9B00A8E1BA /* Main.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Main.c; sourceTree = "<group>"; };
+		9C660F832810615100E5E1A4 /* cavemaps.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cavemaps.c; sourceTree = "<group>"; };
+		9C660F842810615100E5E1A4 /* TileEngine.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = TileEngine.c; sourceTree = "<group>"; };
+		9C660F862810615100E5E1A4 /* test.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = test.s; sourceTree = "<group>"; };
+		9C660F872810615100E5E1A4 /* Ship.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ship.h; sourceTree = "<group>"; };
+		9C660F882810615100E5E1A4 /* GameLogic.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = GameLogic.c; sourceTree = "<group>"; };
+		9C660F892810615100E5E1A4 /* SinTable.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = SinTable.c; sourceTree = "<group>"; };
+		9C660F8A2810615100E5E1A4 /* Ship.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = Ship.c; sourceTree = "<group>"; };
+		9C660F8B2810615100E5E1A4 /* Gfx.s */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.asm; path = Gfx.s; sourceTree = "<group>"; };
+		9C660F8C2810615100E5E1A4 /* GameLogic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameLogic.h; sourceTree = "<group>"; };
+		9C660F8D2810615100E5E1A4 /* nds_asm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nds_asm.h; sourceTree = "<group>"; };
+		9C660F8E2810615100E5E1A4 /* cavetiles.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cavetiles.c; sourceTree = "<group>"; };
+		9C660F8F2810615100E5E1A4 /* caveexterns.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = caveexterns.h; sourceTree = "<group>"; };
+		9C660F902810615100E5E1A4 /* cavepalette.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = cavepalette.c; sourceTree = "<group>"; };
+		9C660F912810615200E5E1A4 /* TileEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileEngine.h; sourceTree = "<group>"; };
+		9C660F922813074F00E5E1A4 /* EmuFont.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = EmuFont.png; sourceTree = "<group>"; };
+		9C660F932813074F00E5E1A4 /* EmuFont.grit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = EmuFont.grit; sourceTree = "<group>"; };
+		9C660F94281311C700E5E1A4 /* Ship1.grit */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Ship1.grit; sourceTree = "<group>"; };
+		9C660F95281311C700E5E1A4 /* Ship1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		350E1C3418AFB50800074DD5 /* graphics */ = {
+			isa = PBXGroup;
+			children = (
+				9C660F922813074F00E5E1A4 /* EmuFont.png */,
+				9C660F932813074F00E5E1A4 /* EmuFont.grit */,
+				9C660F95281311C700E5E1A4 /* Ship1.png */,
+				9C660F94281311C700E5E1A4 /* Ship1.grit */,
+			);
+			path = graphics;
+			sourceTree = "<group>";
+		};
+		742141B214E7EA40003EBFD3 = {
+			isa = PBXGroup;
+			children = (
+				746D78E014ED9A6D00CC738F /* makefile */,
+				A48CC0251618E65200465E20 /* source */,
+				350E1C3418AFB50800074DD5 /* graphics */,
+			);
+			sourceTree = "<group>";
+			usesTabs = 1;
+			wrapsLines = 0;
+		};
+		746D78E014ED9A6D00CC738F /* makefile */ = {
+			isa = PBXGroup;
+			children = (
+				746D78E114ED9A8400CC738F /* Makefile */,
+			);
+			name = makefile;
+			sourceTree = "<group>";
+		};
+		A48CC0251618E65200465E20 /* source */ = {
+			isa = PBXGroup;
+			children = (
+				9C660F8D2810615100E5E1A4 /* nds_asm.h */,
+				9C50820C25D45A9B00A8E1BA /* Main.c */,
+				9C660F8C2810615100E5E1A4 /* GameLogic.h */,
+				9C660F882810615100E5E1A4 /* GameLogic.c */,
+				9C660F872810615100E5E1A4 /* Ship.h */,
+				9C660F8A2810615100E5E1A4 /* Ship.c */,
+				9C660F892810615100E5E1A4 /* SinTable.c */,
+				9C660F862810615100E5E1A4 /* test.s */,
+				9C660F912810615200E5E1A4 /* TileEngine.h */,
+				9C660F842810615100E5E1A4 /* TileEngine.c */,
+				9C660F8B2810615100E5E1A4 /* Gfx.s */,
+				9C660F8F2810615100E5E1A4 /* caveexterns.h */,
+				9C660F832810615100E5E1A4 /* cavemaps.c */,
+				9C660F902810615100E5E1A4 /* cavepalette.c */,
+				9C660F8E2810615100E5E1A4 /* cavetiles.c */,
+			);
+			path = source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		A45BB8C91618FB840009569D /* GravityDS */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "$(ACTION)";
+			buildConfigurationList = A45BB8CC1618FB840009569D /* Build configuration list for PBXLegacyTarget "GravityDS" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			dependencies = (
+			);
+			name = GravityDS;
+			passBuildSettingsInEnvironment = 1;
+			productName = NitroGrafx;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		742141B414E7EA40003EBFD3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0410;
+			};
+			buildConfigurationList = 742141B714E7EA40003EBFD3 /* Build configuration list for PBXProject "GravityDS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 742141B214E7EA40003EBFD3;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A45BB8C91618FB840009569D /* GravityDS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		742141B514E7EA40003EBFD3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		742141B614E7EA40003EBFD3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		A45BB8CA1618FB840009569D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVKITARM = $DEVKITPRO/devkitarm;
+				DEVKITPRO = /opt/devkitpro_old;
+				PRODUCT_NAME = GravityDS;
+			};
+			name = Debug;
+		};
+		A45BB8CB1618FB840009569D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVKITARM = $DEVKITPRO/devkitarm;
+				DEVKITPRO = /opt/devkitpro;
+				PRODUCT_NAME = GravityDS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		742141B714E7EA40003EBFD3 /* Build configuration list for PBXProject "GravityDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742141B514E7EA40003EBFD3 /* Debug */,
+				742141B614E7EA40003EBFD3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A45BB8CC1618FB840009569D /* Build configuration list for PBXLegacyTarget "GravityDS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A45BB8CA1618FB840009569D /* Debug */,
+				A45BB8CB1618FB840009569D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 742141B414E7EA40003EBFD3 /* Project object */;
+}
